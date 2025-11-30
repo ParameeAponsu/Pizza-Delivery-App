@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/onboard1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif"
+        android:text="Fresh Pizza"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_marginTop="250dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fresh pizza, just a tap from your door!"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-thin"
+        android:textColor="@color/white"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:layout_margin="170dp"
+        android:text="next"
+        android:background="#FFC107"
+        android:textSize="24dp" />
+
+
+</LinearLayout>
